@@ -1,0 +1,23 @@
+Name: Zi Xue Lim
+CCID :zixue
+ID#: 1573849
+CMPUT 274 Fall 2019
+HUFFMAN
+
+This program compress and decompress files via huffman alogrithm.
+To run the the decompressor for the huffman.bmp file , run the console in the wwwroot directory and then type the following into console:
+"python3 ../webserver.py"
+Then head to the following URL in your browser:"http://localhost:8000/". You should be able to see a picture of huffman.
+
+To run the compressor, make sure your file is in the wwwroot directory and type the following in console:
+"python3 ../compress.py somefile.ext"
+-NOTE: somefile.ext is the file you want to compress so please change this extension.
+Run the websever by typing into the console:
+"python3 ../webserver.py"
+And proceed to the following URL in your brower: "http://localhost:8000/somefile.ext"
+-Note somefile.ext is the file you have compressed
+You should be able to view/download your file.
+This program will assume that the file you are compressing is in the wwwroot folder
+
+Files changed in this program:util.py
+
